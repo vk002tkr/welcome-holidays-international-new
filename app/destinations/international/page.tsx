@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import {
   getInternationalDestinations,
   Destination,
@@ -19,11 +18,10 @@ function DestinationCard({
     >
       <div className="relative h-64 w-full overflow-hidden bg-gray-100">
         {destination.image_url ? (
-          <Image
+          <img
             src={destination.image_url}
             alt={destination.name}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-slate-200 to-slate-300">
