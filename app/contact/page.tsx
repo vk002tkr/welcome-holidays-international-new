@@ -123,7 +123,7 @@ export default function ContactPage() {
                     </p>
 
                     <p className="mt-1 text-xs text-slate-400">
-                      Contact details will be available here.
+                      +91 783-867-9191
                     </p>
                   </div>
                 </div>
@@ -142,7 +142,17 @@ export default function ContactPage() {
                       Welcome Holidays International
                     </p>
 
-                    <p className="mt-1 text-xs leading-5 text-slate-400">
+                    <p className="mt-2 text-sm leading-6 text-slate-600">
+                      YNRS Business Solutions,
+                      <br />
+                      D-18, LGF-3, Shree Deviram Mangla Complex,
+                      <br />
+                      Tajpur Road, Badarpur Road,
+                      <br />
+                      New Delhi, Delhi 110019
+                    </p>
+
+                    <p className="mt-2 text-xs leading-5 text-slate-400">
                       A venture of YNRS Business Solutions.
                     </p>
                   </div>
@@ -203,7 +213,7 @@ export default function ContactPage() {
                       name="email"
                       type="email"
                       required
-                      placeholder="you@example.com"
+                      placeholder="you@example.cominfo"
                       className="h-13 w-full rounded-xl border border-slate-200 bg-white px-4 text-sm text-[#07172a] outline-none transition placeholder:text-slate-400 focus:border-[#d6a84f] focus:ring-2 focus:ring-[#d6a84f]/20"
                     />
                   </div>
@@ -221,7 +231,7 @@ export default function ContactPage() {
                       name="phone"
                       type="tel"
                       required
-                      placeholder="+91 XXXXX XXXXX"
+                      placeholder="+91 783-867-9191"
                       className="h-13 w-full rounded-xl border border-slate-200 bg-white px-4 text-sm text-[#07172a] outline-none transition placeholder:text-slate-400 focus:border-[#d6a84f] focus:ring-2 focus:ring-[#d6a84f]/20"
                     />
                   </div>

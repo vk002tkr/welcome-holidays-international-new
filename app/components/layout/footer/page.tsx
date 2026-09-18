@@ -130,8 +130,24 @@ export default function Footer() {
                     href="/contact"
                     className="mt-2 inline-block text-sm font-medium text-[#07172a] transition-colors hover:text-[#b58935]"
                   >
-                      → +91 783-867-9191
+                    → +91 783-867-9191
                   </Link>
+                </div>
+
+                <div>
+                  <p className="text-xs uppercase tracking-[0.15em] text-slate-400">
+                    Address
+                  </p>
+
+                  <p className="mt-2 text-sm leading-6 text-slate-600">
+                    YNRS Business Solutions,
+                    <br />
+                    D-18, LGF-3, Shree Deviram Mangla Complex,
+                    <br />
+                    Tajpur Road, Badarpur Road,
+                    <br />
+                    New Delhi, Delhi 110019
+                  </p>
                 </div>
               </div>
             </div>

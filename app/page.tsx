@@ -930,10 +930,10 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/contact"
+              href="/+917838679191"
               className="rounded-full border border-white/25 px-7 py-4 text-center text-sm font-semibold text-white transition hover:bg-white/10"
             >
-              Contact Us: +91 783-867-9191
+              Contact Us
             </Link>
           </div>
         </div>
